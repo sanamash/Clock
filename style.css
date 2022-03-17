@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#9A5044, #E8D9A9) fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clock_body {
+    color: black;
+    background-color: rgb(243, 216, 176);
+    width: 300px;
+    border-radius: 20px;
+    padding: 30px 100px;
+    font-weight: 600;
+    -webkit-box-reflect: below 50px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+.clock_week {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px;
+
+}
+
+.clock_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.clock_time span {
+    position: relative;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.clock_mdy {
+    text-align: center;
+    font-size: 25px;
+}
+
+.clock_mdy span {
+    margin-right: 10px;
+}
